@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#251a2b">
+  <title>MYSTIA — 모험가를 위한 항구도시</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topline">
+    <div class="top-left"><span class="menu-mark">☰</span> 메뉴</div>
+    <a class="brand" href="#">MYSTIA<span>ONLINE</span></a>
+    <div class="top-right"><a href="#guide">게임 가이드</a><a href="#community">커뮤니티</a><button class="login-open">로그인</button></div>
+  </div>
+
+  <header class="main-header">
+    <a class="game-logo" href="#"><span class="logo-symbol">✦</span><span>MYSTIA<small>THE PORT CITY</small></span></a>
+    <nav>
+      <a href="#news">새소식</a><a href="#guide">게임 소개</a><a href="#community">커뮤니티</a>
+      <a href="#ucc">모험가 기록</a><a href="#shop">아이템 상점</a><a href="#support">고객지원</a>
+    </nav>
+    <button class="download" id="game-start" type="button"><b>GAME START</b><small>모험을 시작하세요</small></button>
+  </header>
+
+  <main>
+    <section class="hero" id="download">
+      <div class="hero-orbit orbit-a"></div><div class="hero-orbit orbit-b"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">THE CITY WHERE EVERY JOURNEY BEGINS</p>
+        <p class="hero-kicker">신들의 세계와 인간의 세계가 맞닿은 곳</p>
+        <h1>미스티아</h1>
+        <p class="hero-desc">모든 모험가가 처음 도착하는 항구도시.<br>당신의 이야기는 이곳에서 시작된다.</p>
+        <a class="hero-button" href="#guide">모험가 안내서 보기 <span>→</span></a>
+      </div>
+      <div class="hero-stamp"><span>WELCOME</span><strong>MYSTIA</strong><small>PORT CITY · EST. ANCIENT ERA</small></div>
+      <div class="hero-bottom"><span>01 / 04</span><div class="dots"><i class="active"></i><i></i><i></i><i></i></div><span>SCROLL TO EXPLORE ↓</span></div>
+    </section>
+
+    <section class="quick-row">
+      <a href="#guide"><span class="quick-icon">⌂</span><span><b>처음 오셨나요?</b><small>미스티아에 오신 것을 환영합니다</small></span><em>→</em></a>
+      <a href="#news"><span class="quick-icon">✉</span><span><b>공지사항</b><small>운영 소식과 점검 안내</small></span><em>→</em></a>
+      <a href="#community"><span class="quick-icon">♧</span><span><b>모험가 광장</b><small>길드와 다른 모험가를 만나보세요</small></span><em>→</em></a>
+    </section>
+
+    <section class="content-grid">
+      <div class="panel news-panel" id="news">
+        <div class="section-heading"><div><span class="section-en">WHAT'S NEW</span><h2>새소식</h2></div><a href="#news-list">전체보기 +</a></div>
+        <div class="tabs"><button class="tab active" data-tab="notice">공지사항</button><button class="tab" data-tab="update">업데이트</button><button class="tab" data-tab="event">이벤트</button></div>
+        <ul class="news-list" id="news-list">
+          <li data-kind="notice"><span class="tag">공지</span><a href="#">미스티아에 오신 모험가 여러분, 환영합니다.</a><time>11.20</time></li>
+          <li data-kind="update"><span class="tag blue">안내</span><a href="#">생활·제작 콘텐츠 가이드 안내</a><time>11.18</time></li>
+          <li data-kind="event"><span class="tag gold">이벤트</span><a href="#">항구도시 첫 발자국 — 모험가 등록</a><time>11.15</time></li>
+          <li data-kind="notice"><span class="tag">공지</span><a href="#">게임 이용 전 확인해 주세요</a><time>11.12</time></li>
+          <li data-kind="update"><span class="tag blue">가이드</span><a href="#">전투 기술과 숙련도 시스템 소개</a><time>11.10</time></li>
+        </ul>
+      </div>
+
+      <aside class="side-column">
+        <div class="login-card">
+          <span class="small-label">ADVENTURER'S GATE</span><h3>모험가의 여정을<br>시작할 시간입니다.</h3>
+          <button class="login-open">로그인</button><button class="join-open">모험가 등록하기</button>
+          <p>아직 계정이 없으신가요?</p>
+        </div>
+        <div class="mini-card"><span class="section-en">WORLD GUIDE</span><b>미스티아는 어떤 곳인가요?</b><p>고대 브루티움의 해안에 자리한 항구도시. 이곳을 거점으로 여러 도시와 미개척지를 탐험하세요.</p><a href="#guide">세계관 자세히 보기 →</a></div>
+      </aside>
+    </section>
+
+    <section class="guide-section" id="guide">
+      <div class="section-heading"><div><span class="section-en">LIVE YOUR ADVENTURE</span><h2>미스티아에서의 생활</h2></div><p>검을 들지 않아도, 모험은 계속됩니다.</p></div>
+      <div class="feature-grid">
+        <article class="feature feature-life"><div class="feature-icon">♨</div><span>DAILY LIFE</span><h3>생활</h3><p>낚시, 요리, 농사, 채집부터<br>대장간과 연주, 의상 제작까지.</p></article>
+        <article class="feature feature-battle"><div class="feature-icon">⚔</div><span>COMBAT</span><h3>전투</h3><p>검술과 마법, 궁술.<br>연금술과 신성술을 익히세요.</p></article>
+        <article class="feature feature-explore"><div class="feature-icon">⌖</div><span>EXPLORATION</span><h3>탐험</h3><p>고대 신전과 지하 미궁,<br>아직 밝혀지지 않은 지역으로.</p></article>
+        <article class="feature feature-guild"><div class="feature-icon">♜</div><span>GUILD</span><h3>길드</h3><p>도시에 거점을 마련하고<br>유적 탐사와 대규모 레이드에 도전하세요.</p></article>
+      </div>
+    </section>
+
+    <section class="hardcore-strip">
+      <div><span class="section-en">A WORLD THAT REMEMBERS</span><h2>당신의 선택과 시간이<br><b>모험가의 역사가 됩니다.</b></h2><p>장비 파손, 높은 사망 페널티, 복잡한 스킬 숙련도.<br>미스티아는 가볍지만은 않은 모험을 준비했습니다.</p></div>
+      <div class="hardcore-seal"><span>HARDCORE</span><b>✦</b><small>LIVE · LEARN · SURVIVE</small></div>
+    </section>
+
+    <section class="community-section" id="community">
+      <div class="section-heading"><div><span class="section-en">FROM THE TOWN SQUARE</span><h2>모험가 광장</h2></div><a href="#community">커뮤니티 바로가기 +</a></div>
+      <div class="community-grid">
+        <a class="community-card" href="#"><span>01 / GUILD</span><b>길드 모집</b><small>함께 도시를 개척할 동료를 찾아보세요.</small><em>→</em></a>
+        <a class="community-card" href="#"><span>02 / FREE BOARD</span><b>자유 게시판</b><small>모험 이야기부터 소소한 일상까지.</small><em>→</em></a>
+        <a class="community-card" href="#"><span>03 / ARCHIVE</span><b>모험가 기록</b><small>스크린샷과 플레이 영상을 공유하세요.</small><em>→</em></a>
+      </div>
+    </section>
+
+    <section class="shop-section" id="shop">
+      <div class="shop-intro"><span class="section-en">MYSTIA ITEM SHOP</span><h2>모험에 필요한<br>물품을 확인하세요.</h2><a href="#shop">아이템 상점 둘러보기 →</a></div>
+      <div class="shop-items"><div class="shop-item"><div class="item-art">⚒</div><b>대장장이의 공구</b><small>제작과 수리에 필요한 도구</small></div><div class="shop-item"><div class="item-art">⚗</div><b>연금술사의 병</b><small>채집 재료와 조합의 기록</small></div><div class="shop-item"><div class="item-art">♜</div><b>여행자의 보급품</b><small>긴 여정을 위한 준비물</small></div></div>
+    </section>
+  </main>
+
+  <footer id="support"><a class="footer-logo" href="#">MYSTIA ONLINE</a><p>© MYSTIA PROJECT. FAN-MADE GAME PORTAL MOCKUP.</p><div><a href="#support">이용약관</a><a href="#support">개인정보처리방침</a><a href="#support">고객지원</a></div></footer>
+
+  <div class="modal-backdrop" id="modal" aria-hidden="true">
+    <div class="modal"><button class="modal-close" aria-label="닫기">×</button><span class="section-en">ADVENTURER'S GATE</span><h2 id="modal-title">로그인</h2><p>이 페이지는 자캐 페어용 게임 포털 콘셉트 시안입니다.</p><label>모험가 이름<input type="text" placeholder="캐릭터명 또는 닉네임"></label><label>암호<input type="password" placeholder="비밀번호"></label><button class="modal-submit">확인</button><small>실제 계정 인증 기능은 연결되어 있지 않습니다.</small></div>
+  </div>
+  <div class="start-backdrop" id="start-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="start-title">
+    <div class="start-window">
+      <div class="start-window-top"><span>MYSTIA ONLINE CLIENT</span><button id="start-close" type="button" aria-label="닫기" disabled>×</button></div>
+      <div class="start-window-body">
+        <div class="start-emblem">✦</div>
+        <p class="start-kicker">MYSTIA · GAME LAUNCHER</p>
+        <h2 id="start-title">게임을 시작합니다</h2>
+        <p class="start-status" id="start-status">게임 클라이언트를 확인하고 있습니다...</p>
+        <div class="start-progress"><div id="start-progress-fill"></div></div>
+        <div class="start-progress-meta"><span id="start-progress-label">INITIALIZING</span><b id="start-percent">0%</b></div>
+        <div class="start-log" id="start-log">시스템 연결 대기 중<span>...</span></div>
+        <div class="start-reveal" id="start-reveal" hidden>
+          <div class="reveal-spark">✧</div>
+          <h3>낚이셨나요? :)</h3>
+          <p>이 게임은 자캐 페어 콘셉트용 페이지입니다^^</p>
+          <small>실제 게임 클라이언트는 실행되지 않습니다.</small>
+          <button id="start-done" type="button">아, 그렇구나...</button>
+        </div>
+      </div>
+      <div class="start-window-foot"><span>© MYSTIA PROJECT</span><span>VERSION 1.0.0</span></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
